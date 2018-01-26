@@ -1,0 +1,92 @@
+/*ordered by specificity*/
+
+body {
+	font-family: Roboto;
+	background: #005AA7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: normal;
+	line-height: 1.1;
+	margin: 0;
+	padding: 20px 0;
+	letter-spacing: 1px;
+}
+
+input {
+	height: 25px;
+	outline: none;
+	border: none;
+	border-radius: 2%;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	display: block;
+	margin: 50px auto;
+	padding: 20px;
+}
+
+table {
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	width: 100%;
+}
+
+tr {
+	width: 50%;
+	text-align: center;
+}
+
+button {
+	border:none;
+	background: none;
+	outline: none;
+	color: steelblue;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	height: 100%;
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+	transition: all 0.3s;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+.correct {
+	background: #642B73;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align:center;
+	color: black;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	text-transform: uppercase;
+	font-size: 80%;
+}
+
+#container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+#header {
+	font-size: 200%;
+}
